@@ -1,0 +1,176 @@
+:root{
+    --gray:#35424a;
+    --blue:#34568B;
+    
+}
+*{
+    text-transform: capitalize;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:var(--gray);
+    height: 100px;
+    border-bottom: 3px solid rgb(49, 49, 249);
+    
+}
+.navbar a{
+    color: var(--blue);
+    text-decoration: none;
+}
+.navbar a span{
+    color :white;
+}
+.navbar .menu{
+    float: right;
+    margin-top: 35px;
+    margin-right: 150px;
+}
+.navbar .menu a{
+    font-weight: bold;
+    color: white;
+    font-size: 21px;
+    margin-left: 20px;
+}
+.navbar .logo a{
+position: absolute;
+font-size: 31px;
+margin-left: 120px;
+margin-top: 25px;
+}
+.navbar .menu a:hover{
+    color: var(--blue);
+}
+
+.orta{
+    margin-top: 0px;
+    background-image: url(/img/showcase.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.orta h1{
+
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.orta p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.orta div{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 280px;
+}
+.ort{
+    height: 50px;
+    background-color: var(--gray);
+}
+.kck{
+    display: flex;
+}
+.ort .btn{
+    margin-top: 9px;
+    height: 25px;
+    margin-left: 800px;
+}
+.ort .btn1{
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color:#2f5fac ;
+    margin-left: 6px;
+    margin-top: 9px;
+    height: 29px;
+    width: 80px;
+}
+.ort p{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+}
+.rsm img{
+   
+   width: 110px;
+    margin: 10px;
+}
+.rsm .img{
+    display:flex ;
+    justify-content: space-around;
+
+}
+
+.rsm .tntm{
+    display: flex;
+    justify-content: space-around;
+}
+.rsm .tntm p{
+    font-weight: bold;
+}
+.footer{
+    background-color: #2f5fac;
+    height: 70px;
+}
+.footer p{
+    font-size: 19px;
+    position: absolute;
+    color: white;
+    margin-top: 25px;
+    margin-left: 650px;
+}
+.hkmzd{
+    display: flex;
+    flex-direction: column;
+}
+
+.hzmt .hzm{   
+    margin: 15px;
+    height: 120px;
+    width: 900px;
+    background-color: #cad0d3;
+}
+.hzmt h3{
+    font-weight: bold   ;
+    font-size: 29px;
+    margin-left: 12px;
+}
+.hzmt div span{
+    color: black;
+    font-weight: bold;
+}
+.iltsm{
+    position: absolute;
+    background-color: var(--gray);
+    margin-left: 1000px;
+    margin-top: -410px;
+    width: 400px;
+}
+.iltsm h3{
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+.iltsm p{
+    margin-left: 10px;
+    color: #fff;
+}
+.iltsm input{
+    margin-left: 10px;
+    height: 25px;
+    width: 75%;
+}
+.iltsm .gndr{
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--blue);
+    border-radius: 10px;
+    width: 100px;
+}
